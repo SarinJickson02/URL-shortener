@@ -7,8 +7,8 @@ Essentially, your database has 2 fields: longUrl, shortUrl.
 When a url passes to the body for shorten then it check the database, longurl is already saved in it, if it is there return the short url, otherwise it will keep it in the database and create short url for the given url.
 
 Here two api's are created : '/shorturl' , '/longurl'.
-'/shorturl' : return the shortURL
-'/longurl' : return the LongURL already saved in DB.(used to retrieve the longURL)
+- '/shorturl' : return the shortURL
+- '/longurl' : return the LongURL already saved in DB.(used to retrieve the longURL)
 
 DataBase : MongoDB
 
